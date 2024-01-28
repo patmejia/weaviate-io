@@ -11,15 +11,15 @@ hide_title: true
 
 <h1 className = "docHeadText">Welcome to Weviate Docs</h1>
 
-<p className ="docText">Welcome to the documentation for <b>Weaviate</b>, an open source 
+<p className ="docText">Welcome to the documentation for <b>Weaviate</b> <i>(wee-vee-eight)</i>, an open source
 vector database.</p>
 
 <div className="welcomeSection">
-<div className ="welcomeBox"> 
+<div className ="welcomeBox">
 <div className = "welcomeHeader new"> New to Weaviate? </div>
 <p>Start with the <a href="/quickstart/index.md">Quickstart tutorial</a> - an end-to-end demo that takes 15-30 minutes.</p>
 </div>
-<div className ="welcomeBox"> 
+<div className ="welcomeBox">
 <div className = "welcomeHeader questions">Questions </div>
 <p>Please visit our <a href="https://forum.weaviate.io/c/support/">forum</a> to get help from the Weaviate community including the Weaviate team.</p>
 </div>
@@ -31,11 +31,11 @@ vector database.</p>
 <p className = "highLightText">Getting Started</p>
 
 <h3 className = "docHeader">Step 1 - Choose your deployment</h3>
-<p className ="docText">All options include Vectorizer integration, RAG module integration and Optional data replication</p>
+<p className ="docText">All options allow vectorizer integration and RAG module integration.</p>
 
 
 <div className="deploySection">
-<div className ="deployBox"> 
+<div className ="deployBox">
 <div className ="tabContainer">
 <div className ="deployTab">Evaluation</div>
 <div className ="deployTab">Deployment</div>
@@ -47,11 +47,11 @@ vector database.</p>
 <li>From evaluation (sandbox) to production</li>
 <li>Serverless (infrastructure managed by Weaviate)</li>
 </ul>
-<button className = "deployButton">Submit</button>
+<button className = "deployButton">Read More</button>
 </div>
 </div>
 
-<div className ="deployBox"> 
+<div className ="deployBox">
 <div className ="tabContainer">
 <div className ="deployTab">Evaluation</div>
 <div className ="deployTab">Deployment</div>
@@ -65,9 +65,8 @@ vector database.</p>
 <li>Multi-modal models available</li>
 <li>Fully customizable</li>
 <li>System agnostic</li>
-<li>Easy to set up</li>
 </ul>
-<button className = "deployButton">Submit</button>
+<button className = "deployButton">Read More</button>
 </div>
 </div>
 
@@ -79,7 +78,7 @@ vector database.</p>
 
 
 <div className="deploySection">
-<div className ="deployBox"> 
+<div className ="deployBox">
 <div className ="tabContainer">
 <div className ="deployTab inactive">Evaluation</div>
 <div className ="deployTab">Deployment</div>
@@ -88,21 +87,21 @@ vector database.</p>
 <div className = "deployContent">
 <div className = "deployHeader kubernetes">Kubernetes</div>
 <ul className = "deployList">
-<li>KubernetesFor development to production</li>
+<li>For development to production</li>
 <li>Local inference containers available</li>
 <li>Multi-modal models available</li>
 <li>Fully customizable</li>
 <li>System agnostic</li>
-<li>Zero-downtime updates</li>
-<li>Self-deploy or Marketplace deployment</li>
+<li>Zero-downtime updates possible</li>
+<li>Self-deployment or SaaS Marketplace deployment</li>
 </ul>
-<button className = "deployButton">Submit</button>
+<button className = "deployButton">Read More</button>
 </div>
 </div>
 
 
 
-<div className ="deployBox"> 
+<div className ="deployBox">
 <div className ="tabContainer">
 <div className ="deployTab">Evaluation</div>
 <div className ="deployTab inactive">Deployment</div>
@@ -114,7 +113,7 @@ vector database.</p>
 <li>For basic, quick evaluation</li>
 <li>Conveniently launch Weaviate directly from Python or TS/JS</li>
 </ul>
-<button className = "deployButton">Submit</button>
+<button className = "deployButton">Read More</button>
 </div>
 </div>
 
@@ -126,7 +125,7 @@ vector database.</p>
 
 
 <h3 className = "docHeader">Step 2 - Choose your scenario</h3>
-<p className="docText">All options include Vectorizer integration, RAG module integration and Optional data replication</p>
+<p className="docText">Select a guide that best suits your requirements</p>
 
 
 <div className="deploySection scenario">
@@ -175,11 +174,11 @@ vector database.</p>
 </div>
 
 
-<h3 className = "docHeader">What Next</h3>
-<p className="docText">We recommend starting with these sections</p>
+<h3 className = "docHeader">What next?</h3>
+<p className="docText">Links to popular resources</p>
 
 
-<div className="deploySection whatsNext"> 
+<div className="deploySection whatsNext">
 
 <div className="whatnextBox">
 <span>What is Weaviate?</span>
@@ -194,24 +193,24 @@ vector database.</p>
 <div className="whatnextBox small">
 <span className="filters">Installation</span>
 <p>This section shows you
-Available options for running, 
-Installing and configuring 
+Available options for running,
+Installing and configuring
 Weaviate.</p>
 <div className= "wtLearn">Learn more</div>
 </div>
 <div className="whatnextBox small">
 <span className="filters">How-to: Configure</span>
 <p>This section shows you
-Available options for running, 
-Installing and configuring 
+Available options for running,
+Installing and configuring
 Weaviate.</p>
 <div className= "wtLearn">Learn more</div>
 </div>
 <div className="whatnextBox small">
 <span className="filters">Concepts</span>
 <p>This section shows you
-Available options for running, 
-Installing and configuring 
+Available options for running,
+Installing and configuring
 Weaviate.</p>
 <div className= "wtLearn">Learn more</div>
 </div>
