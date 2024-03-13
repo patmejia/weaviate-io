@@ -14,7 +14,7 @@ image: og/docs/modules/generative-mistral.jpg
 * The Generative Mistral (`generative-mistral`) module performs retrieval augmented generation, or RAG, based on the data stored in your Weaviate instance.
 * The module can generate a response for each object returned from Weaviate, or a combined response for a group of objects.
 * The module enables generative search operations on the Weaviate instance.
-* The default model is `meta-llama/Llama-2-70b-chat-hf`.
+* The default model is `open-mistral-7b`.
 * The module requires an [API key for mistral inference endpoints](https://docs.mistral.ai/api/) to perform the generation task.
 
 ## Introduction
@@ -26,7 +26,7 @@ The module works in two steps:
 2. (Mistral Inference API) Use a Large Language Model to generate a response based on the results (from the previous step) and the provided prompt or task.
 
 :::note
-You can use the Generative Mistral module with any other upstream modules. For example, you could use `text2vec-cohere`, `text2vec-huggingface` or `text2vec-openai` to vectorize and query your data, but then rely on the `generative-aws` module to generate a response.
+You can use the Generative Mistral module with any other upstream modules. For example, you could use `text2vec-cohere`, `text2vec-huggingface` or `text2vec-openai` to vectorize and query your data, but then rely on the `generative-mistral` module to generate a response.
 :::
 
 The generative module can perform RAG for:
@@ -49,7 +49,7 @@ To use `generative-mistral`, you must enable it in your Docker Compose file (`do
 #### Parameters
 
 - `ENABLE_MODULES` (Required): The modules to enable. Include `generative-mistral` to enable the module.
-- `Mistral_APIKEY` Your Mistral API key. You can also provide the key at query time.
+- `MISTRAL_APIKEY` Your Mistral API key. You can also provide the key at query time.
 
 #### Example
 
@@ -99,7 +99,7 @@ You can configure how the module will behave in each class through the [Weaviate
 
 | Parameter | Required | Default | Purpose |
 | :- | :- | :- | :- |
-| `model` | No | `"meta-llama/Llama-2-70b-chat-hf"` | The model to use. Defaults to Llama-2 70B.
+| `model` | No | `"open-mistral-7b"` | The model to use. Defaults to Llama-2 70B.
 | `temperature` | No | 0 | Control of LLM stochasticity. |
 
 ### Supported models
